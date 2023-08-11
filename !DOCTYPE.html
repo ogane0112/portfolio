@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エンジニアポートフォリオ</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+  /* レスポンシブな画像サイズの設定 */
+  .jumbotron img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 画像を中央に配置 */
+  .jumbotron .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  /* タイトルと説明文のスタイル調整 */
+  .jumbotron .display-4,
+  .jumbotron .lead {
+    text-align: center;
+  }
+
+  /* スキル部分のスタイル調整 */
+   ＃p {
+    font-size: 18px;
+    color: #44dcbe;
+  }
+
+   img {
+    max-width: 180px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  @media (max-width: 768px) {
+    /* タブレット以下の画面サイズの場合の設定 */
+    .jumbotron .container {
+      flex-direction: column;
+    }
+  }
+  .pic_frame {
+      display: inline-block;
+      text-align: center;
+    }
+
+    table {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <!-- ヘッダー -->
+<header>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"></h1>
+      <p class="lead"><img src="title.png"></p>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- ナビゲーションメニューのコードはここに記述 -->
+  </nav>
+</header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">エンジニアポートフォリオ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">自己紹介</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">プロジェクト</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 自己紹介セクション -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">自己紹介</h2>
+      <p>名城大学生物資源学科3年　210561109　大鐘　斐斗です！！！！</p>
+      <p>大学では分子情報生物学研究室でpythonをもちいたＤＮＡのデータ解析などのdryな操作や </p>
+      <p>大腸菌の形質転換などのwetな実験まで様々な事を行っています。さらにボランティア協議会というサークルで副代表をしており</p>
+      <p>障がい者の方の介護や高齢者施設などでのレクリエーションのお手伝い,大学付近のゴミ掃除など様々な事を行っています。</p>
+      <p>加えて河川掃除などを行い,環境問題を解決したいという思いでseawaseという学生団体を立ち上げました。</p>
+      <p>詳しい活動は下のＵＲＬのホームページから御覧下さい！！！</p>
+      <p><a href="https://seawase.com/">seawaseホームページ</a></p>
+    </div>
+  </section>
+
+  <!-- worksセクション -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">works</h2>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">pythonをもちいたデータ解析</h3>
+          <p class="card-text">tensorflowとmnistデータをもちいて手書き数字を認識するプログラムを作成しました！下のURL</p>
+          <p>から僕が作成したプログラムを実行することができます！</p>
+          <a href="https://colab.research.google.com/drive/1IRoANnc4DjAqBDd6tFdBR2ZRIGJ33ieU?usp=sharing" >手書き数字認識</a>
+        </div>
+      </div>
+<div class="card">
+<div class="card-body">
+<h3 class="card-title">LINEBOT作成</h3>
+<p class="card-text">Google apps script とLINEDEVELOPERの機能を用いて簡単な応答ができるbotやchatgptをオープンAPIキーをもちいてline上で実行</p>
+<p class="card-text">できるようなbotを作成しました！作成したLINEBOTのQRコードを下に記載しておきます。</p>
+<div class="pic_frame">
+  <img src="ChatGpt.png">
+  <p>ChatGpt</p> 
+</div>
+<div class="pic_frame">
+  <img src="ボラ協BOT.png">
+  <p>LINEBOT</p>
+</div>
+
+</div>
+</div>
+</div>
+
+  </section>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">使う事ができるツール</h2>
+      <p><h3>python</h3><img src="python.png"></p>
+    
+      <p><h3>javascript</h3></p>
+      <p><img src="javascript.png"></p>
+      <p><h3>LINE DEVELOPER</h3></p>
+      <p><img src="linedeveloper.png"></p>
+
+    </div>
+  </section>
+  <!-- フッター -->
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2023 エンジニアポートフォリオ. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
